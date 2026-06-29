@@ -6,12 +6,13 @@
 }
 
 body{
-    background:#f5f9ff;
+    background:#ffffff;
     color:#333;
 }
 
 .hero{
     background:#ffffff;
+    border-bottom:1px solid #e5e7eb;
     text-align:center;
     padding:80px 20px;
 }
@@ -22,16 +23,13 @@ body{
 }
 
 .hero h1{
-    font-size:52px;
-    color:#0B6FD4;
-    margin-bottom:20px;
-    line-height:1.2;
+    color:#2f3a45;
 }
 
 .hero p{
     max-width:700px;
     margin:0 auto 35px;
-    color:#555;
+    color:#6b7280;
     font-size:20px;
     line-height:1.7;
 }

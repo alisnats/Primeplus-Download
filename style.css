@@ -20,9 +20,8 @@ body{
 }
 
 .logo{
-    width:650px;
+    width:500px !important;
     height:auto;
-    margin-bottom:30px;
 }
 
 .hero h1{

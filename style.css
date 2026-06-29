@@ -20,7 +20,8 @@ body{
 }
 
 .logo{
-    width:300px;
+    width:350px;
+    height:auto;
     margin-bottom:30px;
 }
 

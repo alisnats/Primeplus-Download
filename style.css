@@ -39,24 +39,24 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:15px;
-    margin-top:30px;
+    gap:16px;
     flex-wrap:wrap;
+    margin-top:30px;
 }
 
 .download a{
-    display:inline-block;
+    display:inline-flex;
 }
 
 .download img{
-    height:52px;      /* Samakan tinggi */
-    width:auto;       /* Lebar mengikuti rasio asli */
+    height:55px;
+    width:auto;
     display:block;
-    transition:.3s;
+    transition:0.3s;
 }
 
 .download img:hover{
-    transform:scale(1.05);
+    transform:translateY(-3px);
 }
 
 .features{

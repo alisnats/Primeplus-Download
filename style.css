@@ -204,3 +204,18 @@ align-items:center;
 }
 
 }
+
+#buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#buttons a {
+    display: block;
+}
+
+#buttons img {
+    width: 170px;
+    height: auto;
+}

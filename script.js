@@ -1,57 +1,63 @@
 const PLAYSTORE =
 "https://play.google.com/store/apps/details?id=id.primecare.primeplus";
 
-const APPSTORE =
-"";
+const APPSTORE = "";
 
-const playBtn=document.getElementById("playBtn");
-const iosBtn=document.getElementById("iosBtn");
 
-const ua=navigator.userAgent;
+const playBtn = document.getElementById("playBtn");
+const iosBtn = document.getElementById("iosBtn");
 
-if(/Android/i.test(ua)){
+const ua = navigator.userAgent;
 
-    window.location.href=PLAYSTORE;
+
+// Android langsung ke Play Store
+if (/Android/i.test(ua)) {
+
+    window.location.href = PLAYSTORE;
 
 }
 
-else if(/iPhone|iPad|iPod/i.test(ua)){
 
-    if(APPSTORE!=""){
+// iPhone/iPad
+else if (/iPhone|iPad|iPod/i.test(ua)) {
 
-        window.location.href=APPSTORE;
+    if (APPSTORE !== "") {
 
-    }else{
+        window.location.href = APPSTORE;
 
-        iosBtn.onclick=function(e){
+    } else {
+
+        iosBtn.onclick = function(e) {
 
             e.preventDefault();
 
             alert("PrimePlus untuk iPhone akan segera tersedia di App Store.");
 
-        }
+        };
 
     }
 
 }
 
-else{
 
-    playBtn.href=PLAYSTORE;
+// Desktop / laptop
+else {
 
-    if(APPSTORE!=""){
+    playBtn.href = PLAYSTORE;
 
-        iosBtn.href=APPSTORE;
+    if (APPSTORE !== "") {
 
-    }else{
+        iosBtn.href = APPSTORE;
 
-        iosBtn.onclick=function(e){
+    } else {
+
+        iosBtn.onclick = function(e) {
 
             e.preventDefault();
 
             alert("PrimePlus untuk iPhone akan segera tersedia di App Store.");
 
-        }
+        };
 
     }
 

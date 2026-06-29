@@ -167,3 +167,20 @@ footer p{
 }
 
 }
+
+.btn-brosur{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:#f3f4f6;
+    color:#333;
+    text-decoration:none;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-brosur:hover{
+    background:#e5e7eb;
+}

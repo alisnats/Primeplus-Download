@@ -31,7 +31,7 @@ else if (/iPhone|iPad|iPod/i.test(ua)) {
 
             e.preventDefault();
 
-            alert("PrimePlus untuk iPhone akan segera tersedia di App Store.");
+            alert("Primeplus untuk IOS akan segera tersedia di App Store.");
 
         };
 
@@ -55,7 +55,7 @@ else {
 
             e.preventDefault();
 
-            alert("PrimePlus untuk iPhone akan segera tersedia di App Store.");
+            alert("Primeplus untuk IOS akan segera tersedia di App Store.");
 
         };
 

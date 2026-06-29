@@ -219,3 +219,44 @@ align-items:center;
     width: 170px;
     height: auto;
 }
+.logo{
+    width:180px;
+}
+
+.phone img{
+    width:350px;
+    max-width:100%;
+}
+
+#buttons{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+}
+
+#buttons img{
+    width:170px;
+    display:block;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    padding:70px 8%;
+}
+
+.feature{
+    text-align:center;
+    padding:30px;
+    border-radius:20px;
+    background:#fff;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.feature-icon{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    margin-bottom:15px;
+}

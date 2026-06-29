@@ -11,10 +11,9 @@ body{
 }
 
 .hero{
-    background:linear-gradient(135deg,#0B6FD4,#4AA8FF);
-    color:white;
+    background:#ffffff;
     text-align:center;
-    padding:70px 20px;
+    padding:80px 20px;
 }
 
 .logo{
@@ -24,17 +23,18 @@ body{
 
 .hero h1{
     font-size:52px;
+    color:#0B6FD4;
     margin-bottom:20px;
     line-height:1.2;
 }
 
 .hero p{
-    max-width:52px;
+    max-width:700px;
     margin:0 auto 35px;
+    color:#555;
     font-size:20px;
     line-height:1.7;
 }
-
 .download{
     display:flex;
     justify-content:center;
@@ -70,12 +70,17 @@ body{
 }
 
 .card{
-    background:white;
-    border-radius:20px;
+    background:#fff;
+    border:1px solid #e7edf5;
+    border-radius:18px;
     padding:35px 25px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    box-shadow:0 8px 24px rgba(0,0,0,.06);
     transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 14px 30px rgba(11,111,212,.12);
 }
 
 .card:hover{
@@ -101,10 +106,9 @@ body{
 
 footer{
     background:#0B6FD4;
-    color:white;
+    color:#fff;
     text-align:center;
     padding:30px 20px;
-    margin-top:70px;
 }
 
 footer h3{

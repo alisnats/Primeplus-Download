@@ -38,17 +38,25 @@ body{
 .download{
     display:flex;
     justify-content:center;
-    gap:18px;
+    align-items:center;
+    gap:15px;
+    margin-top:30px;
     flex-wrap:wrap;
 }
 
+.download a{
+    display:inline-block;
+}
+
 .download img{
-    width:190px;
+    height:52px;      /* Samakan tinggi */
+    width:auto;       /* Lebar mengikuti rasio asli */
+    display:block;
     transition:.3s;
 }
 
 .download img:hover{
-    transform:translateY(-5px);
+    transform:scale(1.05);
 }
 
 .features{

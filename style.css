@@ -20,7 +20,7 @@ body{
 }
 
 .logo{
-    width:220px;
+    width:300px;
     margin-bottom:30px;
 }
 
@@ -156,6 +156,14 @@ footer p{
 
 .features{
     padding:60px 20px;
+}
+
+}
+
+@media (max-width:768px){
+
+.logo{
+    width:220px;
 }
 
 }

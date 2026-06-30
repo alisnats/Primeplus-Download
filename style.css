@@ -50,7 +50,7 @@ body{
 
     font-size:clamp(2.2rem,5vw,3.8rem);
 
-    font-weight:700;
+    font-weight:400;
 
     color:#2d3748;
 
@@ -60,7 +60,7 @@ body{
 
 .hero p{
 
-    max-width:700px;
+    max-width:400px;
 
     margin:auto;
 

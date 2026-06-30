@@ -3,62 +3,46 @@ const PLAYSTORE =
 
 const APPSTORE = "";
 
+const playBtn=document.getElementById("playBtn");
+const iosBtn=document.getElementById("iosBtn");
+const info=document.getElementById("info");
 
-const playBtn = document.getElementById("playBtn");
-const iosBtn = document.getElementById("iosBtn");
+playBtn.href=PLAYSTORE;
 
-const ua = navigator.userAgent;
+if(APPSTORE===""){
 
+iosBtn.href="#";
 
-// Android langsung ke Play Store
-if (/Android/i.test(ua)) {
+iosBtn.onclick=function(e){
 
-    window.location.href = PLAYSTORE;
+e.preventDefault();
 
-}
+alert("Versi iOS akan segera hadir.");
 
+};
 
-// iPhone/iPad
-else if (/iPhone|iPad|iPod/i.test(ua)) {
+}else{
 
-    if (APPSTORE !== "") {
-
-        window.location.href = APPSTORE;
-
-    } else {
-
-        iosBtn.onclick = function(e) {
-
-            e.preventDefault();
-
-            alert("Primeplus untuk IOS akan segera tersedia di App Store.");
-
-        };
-
-    }
+iosBtn.href=APPSTORE;
 
 }
 
+const ua=navigator.userAgent;
 
-// Desktop / laptop
-else {
+if(/Android/i.test(ua)){
 
-    playBtn.href = PLAYSTORE;
+info.innerHTML="📱 Anda menggunakan Android";
 
-    if (APPSTORE !== "") {
+}
 
-        iosBtn.href = APPSTORE;
+else if(/iPhone|iPad|iPod/i.test(ua)){
 
-    } else {
+info.innerHTML="🍎 Anda menggunakan iPhone";
 
-        iosBtn.onclick = function(e) {
+}
 
-            e.preventDefault();
+else{
 
-            alert("Primeplus untuk IOS akan segera tersedia di App Store.");
-
-        };
-
-    }
+info.innerHTML="💻 Pilih platform download.";
 
 }

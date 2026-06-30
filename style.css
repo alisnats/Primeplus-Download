@@ -77,41 +77,28 @@ body{
 =========================== */
 
 .download{
-
-    margin-top:40px;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
-    gap:20px;
-
+    gap:16px;
     flex-wrap:wrap;
-
+    margin-top:35px;
 }
 
 .download a{
-
-    display:inline-flex;
-
+    display:flex;
+    align-items:center;
 }
 
 .download img{
-
-    height:56px;
-
+    height:60px;
     width:auto;
-
-    transition:.25s;
-
+    display:block;
+    transition:.25s ease;
 }
 
 .download img:hover{
-
-    transform:translateY(-4px);
-
+    transform:translateY(-3px);
 }
 
 /* ===========================

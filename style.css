@@ -137,123 +137,27 @@ body{
 
 }
 
-/* ===========================
-   FEATURES
-=========================== */
-
-.features{
-
-    background:#f8f9fb;
-
-    padding:80px 0;
-
-}
-
-.cards{
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(auto-fit,minmax(240px,1fr));
-
-    gap:28px;
-
-}
-
-.card{
-
-    background:#ffffff;
-
-    border-radius:18px;
-
-    padding:35px 25px;
-
-    text-align:center;
-
-    border:1px solid #ececec;
-
-    transition:.3s;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.05);
-
-}
-
-.card:hover{
-
-    transform:translateY(-6px);
-
-    box-shadow:0 15px 35px rgba(0,0,0,.08);
-
-}
-
-.card img{
-
-    width:70px;
-
-    height:70px;
-
-    object-fit:contain;
-
-    margin-bottom:20px;
-
-}
-
-.card h3{
-
-    font-size:22px;
-
-    color:#2d3748;
-
-    margin-bottom:15px;
-
-}
-
-.card p{
-
-    color:#6b7280;
-
-    font-size:16px;
-
-}
-
-/* ===========================
-   FOOTER
-=========================== */
-
 footer{
-
-    background:#ffffff;
-
-    border-top:1px solid #ececec;
-
+    margin-top:60px;
     padding:40px 20px;
-
+    background:#f8f9fa;
+    border-top:1px solid #e5e7eb;
     text-align:center;
-
 }
 
 footer h2{
-
-    color:#2d3748;
-
     margin-bottom:10px;
-
+    color:#2f3a45;
 }
 
 footer p{
-
+    margin-bottom:8px;
     color:#6b7280;
-
-    margin-bottom:10px;
-
 }
 
 footer small{
-
     color:#9ca3af;
-
 }
-
 /* ===========================
    RESPONSIVE
 =========================== */

@@ -40,10 +40,11 @@ body{
 }
 
 .logo{
-    display:block;
-    width:clamp(260px,30vw,420px);
-    height:auto;
-    margin:0 auto 18px;
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 0 auto 15px;
 }
 
 .hero h1{

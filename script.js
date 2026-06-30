@@ -27,18 +27,3 @@ iosBtn.href=APPSTORE;
 
 }
 
-const ua=navigator.userAgent;
-
-if(/Android/i.test(ua)){
-
-info.innerHTML="📱 Anda menggunakan Android";
-
-}
-
-else if(/iPhone|iPad|iPod/i.test(ua)){
-
-info.innerHTML="🍎 Anda menggunakan iPhone";
-
-}
-
-

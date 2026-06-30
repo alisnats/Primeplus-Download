@@ -41,8 +41,4 @@ info.innerHTML="🍎 Anda menggunakan iPhone";
 
 }
 
-else{
 
-info.innerHTML="💻 Pilih platform download.";
-
-}
